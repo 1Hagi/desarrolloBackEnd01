@@ -1,6 +1,9 @@
 package desarrollo01.models;
 
 import java.time.LocalDateTime;
+
+import org.hibernate.annotations.CreationTimestamp;
+
 import desarrollo01.models.enums.Rol;
 import jakarta.persistence.*;
 
@@ -21,6 +24,8 @@ public class UsuarioModel {
     
     @Enumerated(EnumType.STRING)
     private Rol rol;
+    
+    @CreationTimestamp
     private LocalDateTime fecha_registro;
     private boolean estado;
 
