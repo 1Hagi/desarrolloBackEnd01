@@ -29,7 +29,7 @@ public class UsuarioModel {
     @CreationTimestamp
     private LocalDateTime fecha_registro;
 
-    private boolean estado;
+    private boolean activo;
 
     public int getId_usuario() {
         return id_usuario;
@@ -94,11 +94,11 @@ public class UsuarioModel {
         this.fecha_registro = fecha_registro;
     }
 
-    public boolean isEstado() {
-        return estado;
+    public boolean isActivo() {
+        return activo;
     }
-    public void setEstado(boolean estado) {
-        this.estado = estado;
+    public void setActivo(boolean activo) {
+        this.activo = activo;
     }
 
 }
