@@ -16,42 +16,42 @@ public class EmpresaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
-    private Long id_empresa;
-    private String nombre_empresa;
-    private String email_contacto;
-    private Long telefono_contacto;
+    private int id_empresa;
+    private String nombre;
+    private String email;
+    private Long telefono;
     private String direccion;
     private String descripcion;
     @OneToOne
     @JoinColumn(name = "id_usuario", nullable = false)
     private UsuarioModel usuario;
 
-    public Long getId_empresa() {
+    public int getId_empresa() {
         return id_empresa;
     }
-    public void setId_empresa(Long id_empresa) {
+    public void setId_empresa(int id_empresa) {
         this.id_empresa = id_empresa;
     }
 
     public String getNombre_empresa() {
-        return nombre_empresa;
+        return nombre;
     }
-    public void setNombre_empresa(String nombre_empresa) {
-        this.nombre_empresa = nombre_empresa;
+    public void setNombre_empresa(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getEmail_contacto() {
-        return email_contacto;
+        return email;
     }
-    public void setEmail_contacto(String email_contacto) {
-        this.email_contacto = email_contacto;
+    public void setEmail_contacto(String email) {
+        this.email = email;
     }
 
     public Long getTelefono_contacto() {
-        return telefono_contacto;
+        return telefono;
     }
-    public void setTelefono_contacto(Long telefono_contacto) {
-        this.telefono_contacto = telefono_contacto;
+    public void setTelefono_contacto(Long telefono) {
+        this.telefono = telefono;
     }
 
     public String getDireccion() {

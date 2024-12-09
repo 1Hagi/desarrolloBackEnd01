@@ -14,7 +14,8 @@ public class UsuarioModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
-    private Long id_usuario;
+    private int id_usuario;
+
     private String nombre;
     private String apellido;
     private String mail;
@@ -27,12 +28,13 @@ public class UsuarioModel {
     
     @CreationTimestamp
     private LocalDateTime fecha_registro;
+
     private boolean estado;
 
-    public Long getId_usuario() {
+    public int getId_usuario() {
         return id_usuario;
     }
-    public void setId_usuario(Long id_usuario) {
+    public void setId_usuario(int id_usuario) {
         this.id_usuario = id_usuario;
     }
 
