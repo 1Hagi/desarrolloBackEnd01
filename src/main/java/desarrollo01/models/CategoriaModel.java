@@ -16,9 +16,9 @@ public class CategoriaModel {
     @Column(unique = true, nullable = false)
     private int id_categoria;
 
-    private int nombre;
+    private String nombre;
 
-    private int descripcion;
+    private String descripcion;
 
     public int getId_categoria() {
         return id_categoria;
@@ -27,17 +27,17 @@ public class CategoriaModel {
         this.id_categoria = id_categoria;
     }
 
-    public int getNombre() {
+    public String getNombre() {
         return nombre;
     }
-    public void setNombre(int nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public int getDescripcion() {
+    public String getDescripcion() {
         return descripcion;
     }
-    public void setDescripcion(int descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
