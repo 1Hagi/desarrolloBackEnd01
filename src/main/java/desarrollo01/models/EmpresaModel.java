@@ -6,7 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -17,12 +17,18 @@ public class EmpresaModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
     private int id_empresa;
+
     private String nombre;
+
     private String email;
+
     private Long telefono;
+
     private String direccion;
+    
     private String descripcion;
-    @OneToOne
+
+    @ManyToOne
     @JoinColumn(name = "id_usuario", nullable = false)
     private UsuarioModel usuario;
 

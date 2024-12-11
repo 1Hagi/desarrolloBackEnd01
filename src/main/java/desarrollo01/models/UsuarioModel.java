@@ -17,10 +17,15 @@ public class UsuarioModel {
     private int id_usuario;
 
     private String nombre;
+
     private String apellido;
+
     private String mail;
+
     private String contraseña;
+
     private Long telefono;
+    
     private String direccion;
     
     @Enumerated(EnumType.STRING)

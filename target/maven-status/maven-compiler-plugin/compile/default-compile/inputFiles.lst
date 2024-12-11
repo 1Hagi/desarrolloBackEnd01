@@ -1,11 +1,17 @@
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\controllers\EmpresaController.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\controllers\ProductoController.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\controllers\UsuarioController.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\Desarrollo01Application.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\CategoriaModel.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\EmpresaModel.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\enums\Estado.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\enums\Rol.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\ProductoModel.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\models\UsuarioModel.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\repositories\EmpresaRepository.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\repositories\ProductoRepository.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\repositories\UsuarioRepository.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\services\EmpresaService.java
+D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\services\ProductoService.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\services\UsuarioService.java
 D:\Proyectos\BackEnd\desarrollo01\src\main\java\desarrollo01\ServletInitializer.java
