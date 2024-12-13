@@ -39,24 +39,24 @@ public class EmpresaModel {
         this.id_empresa = id_empresa;
     }
 
-    public String getNombre_empresa() {
+    public String getNombre() {
         return nombre;
     }
-    public void setNombre_empresa(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public String getEmail_contacto() {
+    public String getEmail() {
         return email;
     }
-    public void setEmail_contacto(String email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
-    public Long getTelefono_contacto() {
+    public Long getTelefono() {
         return telefono;
     }
-    public void setTelefono_contacto(Long telefono) {
+    public void setTelefono(Long telefono) {
         this.telefono = telefono;
     }
 

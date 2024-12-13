@@ -7,5 +7,5 @@ import desarrollo01.models.DetalleOrdenModel;
 
 @Repository
 public interface DetalleOrdenRepository extends CrudRepository<DetalleOrdenModel, Long> {
-    public abstract double getTotal();
+    
 }

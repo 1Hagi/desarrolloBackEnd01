@@ -80,5 +80,12 @@ public class OrdenModel {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
+    
+    public List<DetalleOrdenModel> getDetalles() {
+        return detalles;
+    }
+    public void setDetalles(List<DetalleOrdenModel> detalles) {
+        this.detalles = detalles;
+    }
 
 }
