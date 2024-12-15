@@ -2,6 +2,9 @@ package desarrollo01.models.enums;
 
 public enum Estado {
     PENDIENTE,
-    PAGADO,
-    CANCELADO
+    COMPLETADO,
+    CANCELADO,
+    RECHAZADO,
+    EN_REVISION,
+    PAGO_PARCIAL
 }
